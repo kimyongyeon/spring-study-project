@@ -1,5 +1,10 @@
 package org.zerock.domain;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class ProductVO {
 	
 	private String name;
@@ -9,14 +14,6 @@ public class ProductVO {
 		super();
 		this.name = name;
 		this.price = price;
-	}
-	
-	public String getName() {
-		return name;
-	}
-	
-	public double getPrice() {
-		return price;
 	}
 	
 	@Override
